@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #75a562;
+}
+
+.wrapper {
+  z-index: 10;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1513px;
+  margin-bottom: 52px;
+}
+
+.logo {
+  margin: 85px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-right: -85px;
+}
+
+.menu__item {
+  position: relative;
+  margin-right: 35px;
+  font: 22px/26px pt_serifbold, arial, helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 203px;
+}
+
+.main__first-column {
+  max-width: 538px;
+}
+
+.main__title-bali {
+  margin: 0;
+  font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
+  color: black;
+  opacity: 0.4;
+}
+
+.main__title-indonesia {
+  margin: -147px 0 20px 78px;
+  font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
+  color: black;
+}
+
+.main__text {
+  margin-left: 15px;
+}
+
+.main__subtitle {
+  margin: 0 0 38px 0;
+  font: 22px/26px pt_serif, arial, helvetica, sans-serif;
+  color: black;
+}
+
+.main__button {
+  display: inline-block;
+  padding: 16px 102px;
+  font: 18px/21px pt_serif, arial, helvetica, sans-serif;
+  text-decoration: none;
+  color: white;
+  background: black;
+  border-radius: 48px;
+}
+
+.main__second-column {
+  display: flex;
+  align-items: center;
+}
+
+.second-column__item {
+  margin-right: 30px;
+  padding-top: 85px;
+}
+
+.second-column__item:last-child {
+  margin-right: 0;
+}
