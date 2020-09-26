@@ -1,4 +1,4 @@
-@media all and (max-width: 1920px) {
+@media (max-width: 1920px) {
   body {
     margin: 0;
     background-color: #75a562;
@@ -18,7 +18,11 @@
     margin-bottom: 52px;
   }
 
-  .logo {
+  .logo-1366 {
+    display: none;
+  }
+
+  .logo-1920 {
     margin: 85px 0;
   }
 
@@ -40,7 +44,7 @@
   }
 
   .main {
-    display: flex;
+    display: none;
     justify-content: space-between;
     align-items: center;
     margin-left: 203px;
@@ -95,5 +99,32 @@
 
   .second-column__item:last-child {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 1366px) {
+  body {
+    margin: 0;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 79%;
+    z-index: 10;
+  }
+
+  .header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1076px;
+  }
+
+  .logo-1920 {
+    display: none;
+  }
+
+  .logo-1366 {
+    margin: 30px 0;
   }
 }
