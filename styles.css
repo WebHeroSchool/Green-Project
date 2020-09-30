@@ -109,6 +109,10 @@
     margin: 0;
   }
 
+  .container {
+    overflow-x: hidden;
+  }
+
   .wrapper {
     margin: auto;
     width: 79%;
@@ -230,6 +234,10 @@
 @media (max-width: 1024px) {
   body {
     margin: 0;
+  }
+
+  .container {
+    overflow-x: hidden;
   }
 
   .wrapper {
@@ -464,6 +472,34 @@
     color: white;
     text-decoration: none;
     margin: 0 0 30px 0;
+  }
+
+  .main__title-bali {
+    margin: ;
+    font: 170px/225px pt_serif, arial, helvetica, sans-serif;
+    color: #F8EEE4;
+  }
+
+  .main__title-indonesia {
+    margin: ;
+    font: 60px/79px pt_serif, arial, helvetica, sans-serif;
+    color: #F8EEE4;
+  }
+
+  .main__subtitle {
+    margin: ;
+    font: 18px/22px pt_serif, arial, helvetica, sans-serif;
+    color: #F8EEE4;
+  }
+
+  .main__button {
+    display: inline-block;
+    padding: 12px 66px;
+    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #D4BEA3;
+    border-radius: 48px;
   }
 
   .main__second-column {
