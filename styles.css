@@ -107,7 +107,6 @@
 @media (max-width: 1366px) {
   body {
     margin: 0;
-    background: url(img/background-1366.jpg);
   }
 
   .wrapper {
@@ -231,7 +230,6 @@
 @media (max-width: 1024px) {
   body {
     margin: 0;
-    background: url(img/background-1024.jpg);
   }
 
   .wrapper {
@@ -243,7 +241,7 @@
   .header {
     display: flex;
     justify-content: space-between;
-    max-width: 0;
+    max-width: 969px;
     margin-bottom: 32px;
   }
 
@@ -265,7 +263,7 @@
   .menu__item {
     margin-right: 24px;
     font: 16px/19px pt_serifbold, arial, helvetica, sans-serif;
-    color: black;
+    color: #F8EEE4;
     text-decoration: none;
   }
 
@@ -290,20 +288,20 @@
   }
 
   .main__title-indonesia {
-    margin: 0 0 0 0;
-    font: 79px/93px pt_serifbold, arial, helvetica, sans-serif;
+    margin: -105px 0 13px 67px;
+    font: 69px/93px pt_serifbold, arial, helvetica, sans-serif;
     color: #F8EEE4;
   }
 
   .main__subtitle {
-    margin: 0 0 0 0;
+    margin: 0 0 25px 0;
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
     color: #F8EEE4;
   }
 
   .main__button {
     display: inline-block;
-    padding: 12px 62px;
+    padding: 12px 66px;
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
@@ -314,7 +312,6 @@
   .main__second-column {
     display: flex;
     align-items: center;
-    margin-right: 0;
   }
 
   .second-column__item {
@@ -329,6 +326,7 @@
   .second-column__temple {
     width: 225px;
     height: 300px;
+    padding-top: 63px;
   }
 
   .second-colum__blue-sky {
@@ -343,7 +341,7 @@
 
   .second-column__blue-sky,
   .second-column__green-fields {
-    padding: 0 0 0 0;
+    padding: 63px 0 0 0;
   }
 }
 
