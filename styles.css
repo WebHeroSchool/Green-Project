@@ -1,0 +1,693 @@
+.container {
+  overflow-x: hidden;
+}
+
+@media (max-width: 1920px) {
+  body {
+    margin: 0;
+    background: url(img/background-1920.jpg);
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 79%;
+    z-index: 10;
+  }
+
+  .header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1513px;
+    margin-bottom: 52px;
+  }
+
+  .logo {
+    padding: 85px 0;
+  }
+
+  .menu {
+    display: flex;
+    margin-right: -85px;
+  }
+
+  .menu__item {
+    margin-right: 35px;
+    font: 22px/26px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+
+  .main__first-column {
+    max-width: 545px;
+    padding-right: 30px;
+  }
+
+  .main__title-bali {
+    margin: 0;
+    margin-top: -3px;
+    font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+  }
+
+  .main__title-indonesia {
+    margin: -145px 0 18px 83px;
+    font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    margin-left: 22px;
+  }
+
+  .main__subtitle {
+    margin: 0 0 38px 0;
+    font: 22px/26px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__button {
+    display: inline-block;
+    padding: 18px 92px;
+    font: 23px/21px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d4bea3;
+    border-radius: 48px;
+  }
+
+  .main__second-column {
+    display: flex;
+    align-items: center;
+    margin-right: -202px;
+  }
+
+  .second-column__item {
+    margin-right: 30px;
+    padding-top: 85px;
+  }
+
+  .second-column__item:last-child {
+    margin-right: 0;
+  }
+
+  .second-column__blue-sky,
+  .second-column__green-fields {
+    padding: 82px 0 0 0;
+  }
+}
+
+@media (max-width: 1366px) {
+  body {
+    margin: 0;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 79%;
+    z-index: 10;
+  }
+
+  .header {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1076px;
+    margin-bottom: 28px;
+  }
+
+  .logo {
+    padding: 63px 0;
+  }
+
+  .logo__item {
+    width: 104px;
+    height: 39px;
+  }
+
+  .menu {
+    display: flex;
+    margin-right: -63px;
+  }
+
+  .menu__item {
+    margin-right: 24px;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    color: #f8eee4;
+    text-decoration: none;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .main__title-bali {
+    margin: 0;
+    margin-top: 0;
+    font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+    opacity: 0.4;
+  }
+
+  .main__title-indonesia {
+    margin: -103px 0 14px 59px;
+    font: 70px/93px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    max-width: 390px;
+    margin-left: 19px;
+  }
+
+  .main__subtitle {
+    margin: 0 0 38px 0;
+    font: 16px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
+    color: #f8eee4;
+    margin-bottom: 25px;
+  }
+
+  .main__button {
+    display: inline-block;
+    padding: 12px 62px;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d4bea3;
+    border-radius: 48px;
+  }
+
+  .main__second-column {
+    display: flex;
+    align-items: center;
+    margin-right: -179px;
+  }
+
+  .second-column__item {
+    margin-right: 25px;
+  }
+
+  .second-column__item:last-child {
+    margin-right: 0;
+  }
+
+  .second-column__temple {
+    width: 225px;
+    height: 300px;
+    padding-top: 67px;
+  }
+
+  .second-column__blue-sky {
+    width: 202px;
+    height: 270px;
+  }
+
+  .second-column__green-fields {
+    width: 180px;
+    height: 270px;
+  }
+
+  .second-column__blue-sky,
+  .second-column__green-fields {
+    padding: 67px 0 0 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    margin: 0;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 93%;
+    z-index: 10;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 969px;
+    margin-bottom: 32px;
+  }
+
+  .logo {
+    padding: 63px 0;
+  }
+
+  .logo__item {
+    width: 108px;
+    height: 39px;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  .menu__item {
+    margin-right: 26px;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    color: #f8eee4;
+    text-decoration: none;
+  }
+
+  .menu__item:last-child {
+    margin-right: 0;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main__title-bali {
+    margin: 0 0 0 0;
+    font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
+    opacity: 0.4;
+    color: #f8eee4;
+  }
+
+  .main__title-indonesia {
+    margin: -105px 0 13px 67px;
+    font: 69px/93px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__subtitle {
+    margin: 0 0 25px 0;
+    font: 16px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__button {
+    display: inline-block;
+    padding: 12px 66px;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d4bea3;
+    border-radius: 48px;
+  }
+
+  .main__second-column {
+    display: flex;
+    align-items: center;
+  }
+
+  .second-column__item {
+    margin-right: 24px;
+    padding-top: 0;
+  }
+
+  .second-column__item:last-child {
+    margin-right: 0;
+  }
+
+  .second-column__temple {
+    width: 225px;
+    height: 300px;
+    padding-top: 63px;
+  }
+
+  .second-colum__blue-sky {
+    width: 202px;
+    height: 270px;
+  }
+
+  .second-column__green-fields {
+    width: 180px;
+    height: 270px;
+  }
+
+  .second-column__blue-sky,
+  .second-column__green-fields {
+    padding: 63px 0 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    margin: 0;
+  }
+
+  body.lock {
+    overflow: hidden;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 80%;
+    z-index: 10;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin-bottom: 12px;
+  }
+
+  .logo {
+    padding: 41px 0;
+  }
+
+  .logo__item {
+    width: 108px;
+    height: 39px;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 18px;
+    z-index: 100;
+  }
+
+  .header__burger span {
+    position: absolute;
+    background-color: #fff;
+    position: absolute;
+    left: 4px;
+    width: 100%;
+    height: 3px;
+    top: 8px;
+    transition: all 0.3s ease 0s;
+    z-index: 100;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 4px;
+    transition: all 0.3s ease 0s;
+    z-index: 100;
+  }
+
+  .header__burger::before {
+    top: 0;
+  }
+
+  .header__burger::after {
+    bottom: -1px;
+  }
+
+  .header__burger.active {
+    margin: -45px -7px 0 0;
+  }
+
+  .header__burger.active span,
+  .header__burger.active::before,
+  .header__burger.active::after {
+    z-index: 100;
+  }
+
+  .header__burger.active span {
+    transform: scale(0);
+  }
+
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 7px;
+    background-color: black;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+    background-color: black;
+  }
+
+  .header__menu {
+    position: fixed;
+    display: block;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 0 0 0;
+    transition: all 0.3s ease 0s;
+    z-index: 80;
+  }
+
+  .header__menu.active {
+    top: 0;
+    padding: 183px 0 0 0;
+    background-color: white;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__item {
+    font: 30px/36px Museo_Sans_Cyrl_700, arial, helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 24px 0;
+    text-transform: lowercase;
+  }
+
+  .main__first-column {
+    margin: 0 auto;
+  }
+
+  .main__title-bali {
+    margin: 0 0 0 -21px;
+    font: 170px/225px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__title-indonesia {
+    margin: -76px 0 37px 37px;
+    font: 60px/79px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__subtitle {
+    margin: 0 0 35px 0;
+    font: 18px/22px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    max-width: 283px;
+    margin-left: 9px;
+    text-align: center;
+  }
+
+  .main__button {
+    display: inline-block;
+    margin-left: -14px;
+    padding: 12px 66px;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d4bea3;
+    border-radius: 48px;
+  }
+
+  .main__second-column {
+    display: none;
+  }
+}
+
+@media (max-width: 356px) {
+  body {
+    margin: 0;
+  }
+
+  body.lock {
+    overflow: hidden;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 80%;
+    z-index: 10;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin-bottom: 12px;
+  }
+
+  .logo {
+    padding: 41px 0;
+  }
+
+  .logo__item {
+    width: 108px;
+    height: 39px;
+  }
+
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 18px;
+    z-index: 100;
+  }
+
+  .header__burger span {
+    position: absolute;
+    background-color: #fff;
+    left: 4px;
+    width: 100%;
+    height: 3px;
+    top: 8px;
+    transition: all 0.3s ease 0s;
+    z-index: 100;
+  }
+
+  .header__burger::before,
+  .header__burger::after {
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    left: 4px;
+    transition: all 0.3s ease 0s;
+    z-index: 100;
+  }
+
+  .header__burger::before {
+    top: 0;
+  }
+
+  .header__burger::after {
+    bottom: -1px;
+  }
+
+  .header__burger.active {
+    margin: -45px -7px 0 0;
+  }
+
+  .header__burger.active span,
+  .header__burger.active::before,
+  .header__burger.active::after {
+    z-index: 100;
+  }
+
+  .header__burger.active span {
+    transform: scale(0);
+  }
+
+  .header__burger.active::before {
+    transform: rotate(45deg);
+    top: 7px;
+    background-color: black;
+  }
+
+  .header__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+    background-color: black;
+  }
+
+  .header__menu {
+    position: fixed;
+    display: block;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 70px 0 0 0;
+    transition: all 0.3s ease 0s;
+    z-index: 80;
+  }
+
+  .header__menu.active {
+    top: 0;
+    padding: 183px 0 0 0;
+    background-color: white;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__item {
+    font: 30px/36px Museo_Sans_Cyrl_700, arial, helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 0 24px 0;
+    text-transform: lowercase;
+  }
+
+  .main__first-column {
+    margin: auto 0;
+  }
+
+  .main__title-bali {
+    margin: 0 0 0 -21px;
+    font: 153px/218px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__title-indonesia {
+    margin: -81px 0 37px 37px;
+    font: 51px/70px pt_serifbold, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__subtitle {
+    margin: 0 0 35px 0;
+    font: 15px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
+    color: #f8eee4;
+  }
+
+  .main__text {
+    max-width: 283px;
+    margin-left: 9px;
+    text-align: center;
+  }
+
+  .main__button {
+    display: inline-block;
+    margin-left: -14px;
+    padding: 10px 64px;
+    font: 15px/18px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background: #d4bea3;
+    border-radius: 48px;
+  }
+
+  .main__second-column {
+    display: none;
+  }
+}
