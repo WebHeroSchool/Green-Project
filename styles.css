@@ -59,14 +59,14 @@
     margin: 0;
     margin-top: -3px;
     font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
   }
 
   .main__title-indonesia {
     margin: -145px 0 18px 83px;
     font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
@@ -76,7 +76,7 @@
   .main__subtitle {
     margin: 0 0 38px 0;
     font: 22px/26px pt_serif, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__button {
@@ -85,7 +85,7 @@
     font: 23px/21px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
   }
 
@@ -147,7 +147,7 @@
   .menu__item {
     margin-right: 24px;
     font: 16px/19px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     text-decoration: none;
   }
 
@@ -165,14 +165,14 @@
     margin: 0;
     margin-top: 0;
     font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     opacity: 0.4;
   }
 
   .main__title-indonesia {
     margin: -103px 0 14px 59px;
     font: 70px/93px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
@@ -183,7 +183,7 @@
   .main__subtitle {
     margin: 0 0 38px 0;
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     margin-bottom: 25px;
   }
 
@@ -193,7 +193,7 @@
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
   }
 
@@ -269,7 +269,7 @@
   .menu__item {
     margin-right: 26px;
     font: 16px/19px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
     text-decoration: none;
   }
 
@@ -286,19 +286,19 @@
     margin: 0 0 0 0;
     font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
     opacity: 0.4;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__title-indonesia {
     margin: -105px 0 13px 67px;
     font: 69px/93px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__subtitle {
     margin: 0 0 25px 0;
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__button {
@@ -307,7 +307,7 @@
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
   }
 
@@ -483,19 +483,19 @@
   .main__title-bali {
     margin: 0 0 0 -21px;
     font: 170px/225px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__title-indonesia {
     margin: -76px 0 37px 37px;
     font: 60px/79px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__subtitle {
     margin: 0 0 35px 0;
     font: 18px/22px pt_serif, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
@@ -511,7 +511,7 @@
     font: 16px/19px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
   }
 
@@ -563,7 +563,6 @@
   .header__burger span {
     position: absolute;
     background-color: #fff;
-    position: absolute;
     left: 4px;
     width: 100%;
     height: 3px;
@@ -656,19 +655,19 @@
   .main__title-bali {
     margin: 0 0 0 -21px;
     font: 153px/218px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__title-indonesia {
     margin: -81px 0 37px 37px;
     font: 51px/70px pt_serifbold, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__subtitle {
     margin: 0 0 35px 0;
     font: 15px/19px pt_serif, arial, helvetica, sans-serif;
-    color: #F8EEE4;
+    color: #f8eee4;
   }
 
   .main__text {
@@ -684,7 +683,7 @@
     font: 15px/18px pt_serif, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
-    background: #D4BEA3;
+    background: #d4bea3;
     border-radius: 48px;
   }
 
