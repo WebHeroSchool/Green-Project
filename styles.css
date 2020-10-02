@@ -34,7 +34,7 @@
 
   .menu__item {
     margin-right: 35px;
-    font: 22px/26px pt_serifbold, arial, helvetica, sans-serif;
+    font: 22px/26px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     color: #fff;
     text-decoration: none;
   }
@@ -75,14 +75,14 @@
 
   .main__subtitle {
     margin: 0 0 38px 0;
-    font: 22px/26px pt_serif, arial, helvetica, sans-serif;
+    font: 22px/26px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
     color: #f8eee4;
   }
 
   .main__button {
     display: inline-block;
     padding: 18px 92px;
-    font: 23px/21px pt_serif, arial, helvetica, sans-serif;
+    font: 23px/21px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
     background: #d4bea3;
@@ -146,7 +146,7 @@
 
   .menu__item {
     margin-right: 24px;
-    font: 16px/19px pt_serifbold, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     color: #f8eee4;
     text-decoration: none;
   }
@@ -182,7 +182,7 @@
 
   .main__subtitle {
     margin: 0 0 38px 0;
-    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
     color: #f8eee4;
     margin-bottom: 25px;
   }
@@ -190,7 +190,7 @@
   .main__button {
     display: inline-block;
     padding: 12px 62px;
-    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
     background: #d4bea3;
@@ -268,7 +268,7 @@
 
   .menu__item {
     margin-right: 26px;
-    font: 16px/19px pt_serifbold, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     color: #f8eee4;
     text-decoration: none;
   }
@@ -297,14 +297,14 @@
 
   .main__subtitle {
     margin: 0 0 25px 0;
-    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
     color: #f8eee4;
   }
 
   .main__button {
     display: inline-block;
     padding: 12px 66px;
-    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
     background: #d4bea3;
@@ -469,7 +469,7 @@
   }
 
   .menu__item {
-    font: 30px/36px pt_serifbold, arial, helvetica, sans-serif;
+    font: 30px/36px Museo_Sans_Cyrl_700, arial, helvetica, sans-serif;
     color: black;
     text-decoration: none;
     margin: 0 0 24px 0;
@@ -494,7 +494,7 @@
 
   .main__subtitle {
     margin: 0 0 35px 0;
-    font: 18px/22px pt_serif, arial, helvetica, sans-serif;
+    font: 18px/22px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
     color: #f8eee4;
   }
 
@@ -508,7 +508,7 @@
     display: inline-block;
     margin-left: -14px;
     padding: 12px 66px;
-    font: 16px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 16px/19px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
     background: #d4bea3;
@@ -641,7 +641,7 @@
   }
 
   .menu__item {
-    font: 30px/36px pt_serifbold, arial, helvetica, sans-serif;
+    font: 30px/36px Museo_Sans_Cyrl_700, arial, helvetica, sans-serif;
     color: black;
     text-decoration: none;
     margin: 0 0 24px 0;
@@ -666,7 +666,7 @@
 
   .main__subtitle {
     margin: 0 0 35px 0;
-    font: 15px/19px pt_serif, arial, helvetica, sans-serif;
+    font: 15px/19px Museo_Sans_Cyrl_300, arial, helvetica, sans-serif;
     color: #f8eee4;
   }
 
@@ -680,7 +680,7 @@
     display: inline-block;
     margin-left: -14px;
     padding: 10px 64px;
-    font: 15px/18px pt_serif, arial, helvetica, sans-serif;
+    font: 15px/18px Museo_Sans_Cyrl_500, arial, helvetica, sans-serif;
     text-decoration: none;
     color: white;
     background: #d4bea3;
